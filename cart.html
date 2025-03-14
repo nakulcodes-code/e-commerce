@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart - Nakul Kirana</title>
+  <link rel="stylesheet" href="cart.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Cart Section -->
+  <section class="cart-header">
+    <h1>Your Shopping Cart</h1>
+    <p>Review your selected items and proceed to checkout.</p>
+  </section>
+
+  <section class="cart-container">
+    <!-- Cart Item -->
+    <div class="cart-item">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <div class="cart-info">
+        <h2>Product Name</h2>
+        <p>Price: ₹999</p>
+        <div class="quantity">
+          <button class="qty-btn">-</button>
+          <input type="number" value="1" class="qty-input">
+          <button class="qty-btn">+</button>
+        </div>
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <div class="cart-info">
+        <h2>Product Name</h2>
+        <p>Price: ₹1,299</p>
+        <div class="quantity">
+          <button class="qty-btn">-</button>
+          <input type="number" value="2" class="qty-input">
+          <button class="qty-btn">+</button>
+        </div>
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Summary -->
+  <section class="cart-summary">
+    <h2>Cart Summary</h2>
+    <p>Total Items: 3</p>
+    <p>Total Price: ₹3,597</p>
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </section>
+</body>
+</html>

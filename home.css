@@ -1,0 +1,71 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #fff;
+  }
+  
+  /* Home Container */
+  .home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-section h1 span {
+    color: #ffdd57;
+  }
+  
+  .welcome-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Loader Animation */
+  .loader {
+    border: 6px solid #fff;
+    border-top: 6px solid #ffdd57;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Shop Now Button */
+  .shop-now-btn {
+    display: inline-block;
+    background-color: #ffdd57;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #ffe784;
+    transform: scale(1.05);
+  }
+  

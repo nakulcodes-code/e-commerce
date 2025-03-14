@@ -1,0 +1,135 @@
+/* About Page Header */
+.about-header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ff7e5f;
+    color: white;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  /* About Content Section */
+  .about-content {
+    padding: 40px 20px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .about-content div {
+    max-width: 400px;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .choose-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .choose-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .choose-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .choose-item i {
+    font-size: 2rem;
+    color: #ff7e5f;
+    margin-bottom: 10px;
+  }
+  
+  .choose-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .choose-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .team-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
